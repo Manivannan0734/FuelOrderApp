@@ -1,0 +1,17 @@
+.footer {
+    background-color: #000000;
+    padding: 16px;
+    text-align: center;
+    height: 20rem;
+  }
+  
+  .footer footer p  {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #f8eded;
+  }
+  .footer h1{
+    color: #f8eded;
+    margin: 0;
+    text-align: left;
+  }

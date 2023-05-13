@@ -1,0 +1,25 @@
+.caro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .caro {
+    margin-top: 1rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .caro img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.caro button {
+  display: flex;
+  justify-content: stretch;
+}

@@ -1,0 +1,65 @@
+.ordercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left:  auto;
+  width: auto;
+
+ 
+  border: 1px solid #020202;
+  border-radius: 5px;
+}
+
+.ordercontainer h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.formgroup label {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.formgroup input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.formgroup .locationinput {
+  display: flex;
+  align-items: center;
+}
+
+.formgroup .locationinput input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.formgroup .locationinput button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn[type="submit"] {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
